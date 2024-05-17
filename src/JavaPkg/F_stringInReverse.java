@@ -10,10 +10,11 @@ public class F_stringInReverse {
 		
 		for(int i= phrase.length(); i>0 ;i--)  // assume the legth here is 5 so:   i=5  i=4....i=1
 		{
-		 char letter= phrase.charAt(i-1);                                   
-		 reversed= reversed+ letter;  	                              
+		 /* Below works too.
+		  * char letter= phrase.charAt(i-1);                                   
+		 reversed= reversed+ letter;  	     */
+			reversed= reversed + phrase.charAt(i-1);
 		}
-         
 		System.out.println(reversed);
 	}
 

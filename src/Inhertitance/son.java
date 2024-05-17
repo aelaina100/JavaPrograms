@@ -1,6 +1,6 @@
 package Inhertitance;
 
-public class son extends Grandfather {
+public class son extends Grandfather  {
 
 	public static void main(String[] args) {
 		
@@ -8,6 +8,7 @@ public class son extends Grandfather {
 		s.city();
 		s.country();
 		System.out.println(s.z);
+		
 	}
 	
 	public void activities()

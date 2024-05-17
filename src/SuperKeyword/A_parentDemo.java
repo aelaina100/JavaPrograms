@@ -4,6 +4,7 @@ package SuperKeyword;
 public class A_parentDemo {
 	
 	String name= "Ahmad";
+	
 	public A_parentDemo() // A constructor
 	{
 		System.out.println("Parent Class constructor");

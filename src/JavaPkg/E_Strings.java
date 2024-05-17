@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 public class E_Strings {
 
-	@Test(enabled= false)
+	@Test(enabled= true)
 	public void StringsBasicsOne(){
 		
 		String text= "WERD"; 

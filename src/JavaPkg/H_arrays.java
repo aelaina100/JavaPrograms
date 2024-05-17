@@ -39,14 +39,15 @@ public class H_arrays {
 		for(int i=0; i<values.length; i++)
 		{
 			int z= values[i];
-			counter++; // I made a mistak of storing it inside the first if below
+			counter++; // I made a mistake of storing it inside the first if below
 			
 			if(z==someNumber)
 			{
 				System.out.println("The value: " + someNumber+ " is stored in the index of:  " +i);
 				break;}
 
-           else if(counter==values.length) {  // if you are on the last iteration
+           else if(counter==values.length) {  // if you are on the last iteration  // Note: remove the counter stuff (optimization) 
+        	   // As the argument should be 'i=length-1"
 		   System.out.println("The value of: " + someNumber+ " is NOT stored in the array to begin with");
 					
 			  }

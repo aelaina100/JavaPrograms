@@ -1,4 +1,4 @@
-package JavaPkg;
+ package JavaPkg;
 // check if 'Salon' is a palindrome
 
 public class G_Palindrome {

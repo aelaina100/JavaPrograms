@@ -8,6 +8,11 @@ public class C_basics2 {
 		m2.validateResults();
 		System.out.println("################################################");
 		System.out.println(	m2.validateResults());
+		
+		int value= m2.validateResults();
+		// value stores "10"
+		System.out.println("=======================================================");
+		System.out.println("returned value is " + value);
 
 
 	}

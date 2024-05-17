@@ -1,6 +1,6 @@
 package Constructors;
 
-// Look at the below code predicting the output
+// Look at the below code, predicting the output
 
 public class D_constructorDemo {
 	

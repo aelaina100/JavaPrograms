@@ -25,6 +25,7 @@ public class B_childDemo extends A_parentDemo {
 	{
 		super.getData();
 		System.out.println(" I am in the child class");
+		
 	}
 	
 
@@ -34,10 +35,9 @@ public class B_childDemo extends A_parentDemo {
 		cd.getStringData();
 		cd.getData();
 		
+	
 		
 		
-
-
 	}
 
 }

@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-14T23:17:38 EDT" name="Default suite" finished-at="2023-09-14T23:17:38 EDT" duration-ms="44">
+  <suite started-at="2024-05-15T12:38:59 EDT" name="Default suite" finished-at="2024-05-15T12:38:59 EDT" duration-ms="50">
     <groups>
     </groups>
-    <test started-at="2023-09-14T23:17:38 EDT" name="Default test" finished-at="2023-09-14T23:17:38 EDT" duration-ms="44">
-      <class name="JavaPkg.D_2_Static_methods2">
-        <test-method signature="D_write()[pri:0, instance:JavaPkg.D_2_Static_methods2@2cdd0d4b]" started-at="2023-09-14T23:17:38 EDT" name="D_write" finished-at="2023-09-14T23:17:38 EDT" duration-ms="8" status="PASS">
+    <test started-at="2024-05-15T12:38:59 EDT" name="Default test" finished-at="2024-05-15T12:38:59 EDT" duration-ms="50">
+      <class name="JavaPkg.E_Strings">
+        <test-method signature="StringsBasicsOne()[pri:0, instance:JavaPkg.E_Strings@4944252c]" started-at="2024-05-15T12:38:59 EDT" name="StringsBasicsOne" finished-at="2024-05-15T12:38:59 EDT" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- D_write -->
-      </class> <!-- JavaPkg.D_2_Static_methods2 -->
+        </test-method> <!-- StringsBasicsOne -->
+        <test-method signature="StrinsSplitting_A()[pri:0, instance:JavaPkg.E_Strings@4944252c]" started-at="2024-05-15T12:38:59 EDT" name="StrinsSplitting_A" finished-at="2024-05-15T12:38:59 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StrinsSplitting_A -->
+        <test-method signature="StrinsSplitting_B()[pri:0, instance:JavaPkg.E_Strings@4944252c]" started-at="2024-05-15T12:38:59 EDT" name="StrinsSplitting_B" finished-at="2024-05-15T12:38:59 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StrinsSplitting_B -->
+      </class> <!-- JavaPkg.E_Strings -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

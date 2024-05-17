@@ -1,10 +1,12 @@
 package JavaPkg;
 
+
 public class B_methods { 
 	public void validateheader()
 	{
 		System.out.println(" I navigated to home");
 	}
+	
 
 }
 // With the assumption that method(s) here are going to be accessed (used)repeatedly by many classes that either utilize
